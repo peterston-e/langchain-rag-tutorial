@@ -8,13 +8,13 @@ from langchain.prompts import ChatPromptTemplate
 CHROMA_PATH = "chroma"
 
 PROMPT_TEMPLATE = """
-Answer the question based only on the following context:
+Answer the coding-related question and give answers that are positive in nature and are able to convey confidence but based only on the following context:
 
 {context}
 
 ---
 
-Answer the question based on the above context: {question}
+Answer the coding-related question based on the above context but transform all the I to He/Him pronouns and use the name Peter where appropriate, do not mention sailing or painting and decorating unless asked about it directly: {question}
 """
 
 
