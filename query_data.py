@@ -8,7 +8,7 @@ from langchain.prompts import ChatPromptTemplate
 CHROMA_PATH = "chroma"
 
 PROMPT_TEMPLATE = """
-Answer the coding-related question and give answers that are positive in nature and are able to convey confidence but based only on the following context:
+Answer the coding-related question and give answers that are positive in nature and are able to convey confidence. include projects that involve coding whenever possible, but base answers on the following context:
 
 {context}
 
